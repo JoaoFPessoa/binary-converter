@@ -8,7 +8,7 @@ const Input = ({ inputBin, handleBinaryInput }) => {
         name="binarynum"
         type="text"
         minLength="1"
-        maxLength="20"
+        maxLength="8"
         value={inputBin.value}
         onChange={(e) => handleBinaryInput(e)}
         autoFocus
