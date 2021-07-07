@@ -1,6 +1,7 @@
-import {Container, Logo, Titulo, Texto, Resultado} from '../styles'
+import {Container, Logo, Titulo, Texto, Resultado, GithubLogo} from '../styles'
 import React, { useEffect, useState } from 'react'
 import logo from '../img/logo.jpg'
+import github from '../img/github.jpg'
 import Result from '../components/result'
 import Input from '../components/input'
 
@@ -76,6 +77,7 @@ return (
 <Input inputBin={inputBin} handleBinaryInput={handleBinaryInput} />
 <Resultado>Resultado: </Resultado>
 <Result inputBin={inputBin} decNum={decNum} />
+<a className="gitLogo" href="https://github.com/JoaoFPessoa">Made by: <GithubLogo src={github} /></a>
 </Container>
 )}
 

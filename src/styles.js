@@ -69,3 +69,9 @@ margin-top: 3rem;`
 
 export const Display = styled.text`
 font-color: white;`
+
+export const GithubLogo = styled.img`
+width: 100%;
+margin-top: 1rem;
+justify-content: center;
+`

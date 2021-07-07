@@ -23,3 +23,10 @@
 .display {
   color: white;
 }
+
+.gitLogo {
+  width: 10%;
+  margin-top: 1rem;
+  justify-content: center;
+  text-align: center;
+}
