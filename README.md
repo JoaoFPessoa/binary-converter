@@ -1,6 +1,8 @@
 Project to train my React.js skills! (used styled components)
+
+
 Here you can see my project:
-https://6v7hc.csb.app/
+<a href="https://6v7hc.csb.app/">Bin2Dec Project</a>
 
 # Bin2Dec
 
